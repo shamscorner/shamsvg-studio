@@ -348,7 +348,7 @@
           <input
             type="color"
             bind:value={bgColor}
-            class="h-full w-12 p-1 bg-gray-800 border border-gray-700 rounded-lg cursor-pointer"
+            class="h-11.5 w-12 p-1 bg-gray-800 border border-gray-700 rounded-lg cursor-pointer"
           />
         </div>
 
@@ -376,6 +376,18 @@
           >
         </div>
       </div>
+    </div>
+    <div
+      class="mt-auto text-center p-4 border-t border-gray-800 text-xs text-gray-500"
+    >
+      <a
+        href="https://shamscorner.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-blue-400 underline underline-offset-4"
+      >
+        Developed by Shamscorner LLC
+      </a>
     </div>
   </div>
 </main>
