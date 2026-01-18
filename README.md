@@ -1,4 +1,8 @@
-# Svelte + TS + Vite
+# shamsvg-studio
+
+shamsvg-studio is an open source Svelte + TypeScript + Vite application. Contributions are welcome — see the Contributing section below for how to get involved.
+
+## Svelte + TS + Vite
 
 This template should help get you started developing with Svelte and TypeScript in Vite.
 
@@ -42,6 +46,35 @@ If you have state that's important to retain within a component, consider creati
 ```ts
 // store.ts
 // An extremely simple external store
-import { writable } from 'svelte/store'
-export default writable(0)
+import { writable } from "svelte/store";
+export default writable(0);
 ```
+
+## Open Source & Contributing
+
+Thank you for your interest in contributing! This project is open source and accepts contributions from the community.
+
+How to contribute (quick steps):
+
+1. Fork the repository.
+2. Create a new branch for your work:
+   - `git checkout -b feat/your-feature`
+3. Make changes and add tests where appropriate.
+4. Commit your changes with a clear message:
+   - `git commit -am "feat: short description"`
+5. Push your branch to your fork:
+   - `git push origin feat/your-feature`
+6. Open a Pull Request (PR) against the `main` branch of this repository.
+7. Respond to review feedback and update the PR as needed.
+8. Once approved, your PR will be merged.
+
+Guidelines:
+
+- Keep changes focused and small when possible.
+- Follow existing code style and patterns.
+- Describe why the change is needed in your PR description.
+- Report issues via the issue tracker with steps to reproduce when applicable.
+
+## License
+
+This project is licensed under the MIT License. By contributing, you agree that your contributions will be licensed under the same MIT license.
